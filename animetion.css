@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  animation: disco 4s infinite;
+}
+/* h1 {
+    animation: disco 4s infinite;
+}
+    @keyframes dancer {
+        0% {
+          background-color: chocolate;
+        }
+        25% {
+          background-color: rgb(255, 100, 200);
+        }
+        50% {
+          background-color: rgb(246, 320, 255);
+        }
+        75% {
+          background-color:  rgb(300,100,218);
+        }
+        100% {
+          background-color: rgb(208, 15, 218);
+        }
+}  */
+@keyframes disco {
+  0% {
+    color: blue;
+    background-image: url(./imges/icons8-greater-than-96.png);
+  }
+  25% {
+    color: brown;
+    background-image: url(./imges/overlay.png);
+  }
+  50% {
+    color: cyan;
+    background-image: url(./imges/icons8-multiply-50.png);
+  }
+  75% {
+    color: darkred;
+    background-image: url(./imges/icons8-multiply-50.png);
+  }
+  100% {
+    color: palegreen;
+    background-image: url(./imges/icons8-greater-than-96.png);
+  }
+}
